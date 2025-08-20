@@ -1,5 +1,5 @@
 const CACHE_NAME = "hypixo-cache-v1";
-const urlsToCache = ["/", "/index.php", "/package/combined-styles.css"];
+const urlsToCache = ["/", "/index.html", "/package/combined-styles.css"];
 
 self.addEventListener("install", event => {
   event.waitUntil(
